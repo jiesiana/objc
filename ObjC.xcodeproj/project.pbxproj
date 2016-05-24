@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD3721131CF3EDD600D84DC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3721121CF3EDD600D84DC5 /* main.m */; };
+		CD37211B1CF43D8B00D84DC5 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37211A1CF43D8B00D84DC5 /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		CD37210F1CF3EDD600D84DC5 /* ObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3721121CF3EDD600D84DC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD3721191CF43D8B00D84DC5 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		CD37211A1CF43D8B00D84DC5 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CD3721121CF3EDD600D84DC5 /* main.m */,
+				CD3721191CF43D8B00D84DC5 /* Fraction.h */,
+				CD37211A1CF43D8B00D84DC5 /* Fraction.m */,
 			);
 			path = ObjC;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD3721131CF3EDD600D84DC5 /* main.m in Sources */,
+				CD37211B1CF43D8B00D84DC5 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +215,7 @@
 		CD3721171CF3EDD600D84DC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +223,7 @@
 		CD3721181CF3EDD600D84DC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
