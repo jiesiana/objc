@@ -16,5 +16,3 @@
 -(int) numerator;
 -(int) denominator;
 @end
-
-// implementation 부분
